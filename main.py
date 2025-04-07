@@ -1,10 +1,10 @@
-#【author】-------------
-# Nanae Shimoi
+# アドベンチャーゲーム（text based adventure game）
 
-#【theme】--------------
-# text based adventure game
 
-#【step】---------------
+# Python
+
+
+#【step】
 #(start)
 #1,ask firs question
 #2,player can choose 「LEFT」 or 「RIGHT」
@@ -19,7 +19,9 @@
 #7,「SWIM」→"Do you want to OPEN the chest or LEAVE it?"
 #8,「EAT」→ "Do you want to WAIT for help or TRY to move?"
 
-#【to do list】-------------
+
+
+#【to do list】
 #(start)
 #1,use”print("")”-------ask firs question
 
@@ -32,7 +34,7 @@
 #(level 3)
 #4,use"choice3= input("").strip().lowew(),if choice3 =="":print(""),elif choice3 =="":print(""),else:print("")"
 
-#【assignment】-------------
+
 
 
 
@@ -81,4 +83,4 @@ elif choice1 == "right":
 else:
      print("Invalid choice.You remain at the cave enterance, paralyzed by indecision.")
 
-     print("ご視聴ありがとうございます。")
+     print("Thank you!")
